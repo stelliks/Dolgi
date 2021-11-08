@@ -1,0 +1,235 @@
+@font-face {
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-display: swap;
+}
+@font-face {
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+text-transform: uppercase;
+}
+body {
+	font-family: Inter, sans-serif;
+	font-size: 15px;
+	line-height: 21px;
+	color: #292929;
+	background: #E5E5E5;
+}
+.logo_text {
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: #292929;
+}
+.navigation_link {
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: 0.01em;
+	color: #292929;
+}
+.title {
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 48px;
+	line-height: 56px;
+	text-transform: uppercase;
+}
+.tel_number {
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: 0.01em;
+	color: #6B9CFA;
+}
+.description {
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+}
+.card_description {
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 34px;
+	line-height: 52px;
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+}
+.more {
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: 0.01em;
+}
+h3 {
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+	color: #959595;
+}
+.navigation_item {
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: 0.01em;
+}
+.form_description {
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 152.19%;
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+}
+.form_consult {
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	letter-spacing: 0.01em;
+	color: #000000;
+}
+.button_consult_item {
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: 0.01em;
+	color: #FFFFFF;
+}
+.gallery_title {
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 34px;
+	line-height: 41px;
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.info_text_gallery {
+	font-family: Inter, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 21px;
+letter-spacing: 0.01em;
+color: #FFFFFF;
+}
+h2 {
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 34px;
+	line-height: 52px;
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+	color: #292929;
+}
+.card_number {
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 34px;
+	line-height: 52px;
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+	color: #6B9CFA;
+}
+.card_list_item {
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 23px;
+	letter-spacing: 0.01em;
+}
+.reviews_names {
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 18px;
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+	color: #959595;
+}
+.contacts_list_item {
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0.01em;
+	color: #292929;
+}
+.logo {
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: #292929;
+}
+.footer_text {
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+	letter-spacing: 0.01em;
+	color: #959595;
+}
+.footer_list {
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: 0.01em;
+}
+.footer_tel {
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	letter-spacing: 0.01em;
+	color: #000000;
+}
+.footer_consult {
+	font-family: Inter, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: 0.01em;
+	color: #FFFFFF;
+}
