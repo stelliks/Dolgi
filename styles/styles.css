@@ -1,131 +1,126 @@
-@font-face {
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-display: swap;
-}
-@font-face {
-font-family: Roboto;
-font-style: normal;
-font-weight: 300;
-text-transform: uppercase;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+*{
+	box-sizing: border-box;
 }
 body {
 	font-family: Inter, sans-serif;
+	font-weight: 300;
 	font-size: 15px;
-	line-height: 21px;
 	color: #292929;
-	background: #E5E5E5;
+	background: #fff;
+	text-decoration: none;
+}
+ul, ul li{
+	list-style: none; /* убирает точки у списка */
+	padding: 0;
+	margin: 0;
+	display: inline-block; /*делает строчный элемент */
+}
+a{
+	text-decoration: none; /*убирает подчеркивание */
+	color: inherit; /*присвает цвет родителя*/
+}
+h1, h2, h3, h4, p, span{
+	padding: 0;
+	margin: 0;
+}
+button {
+	padding: 0;
+	border: none;
+	font: inherit;
+	color: inherit;
+	background-color: transparent;
+	cursor: pointer;
+}
+input
+{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border: none;
+	outline: none;
+}
+.container{
+	width: 1213px;
+	margin: 0 auto;
+}
+.header_container{
+	display: flex;
+	padding: 25px 0;
+	align-items: center;
 }
 .logo_text {
-	font-family: Inter, sans-serif;
-	font-style: normal;
-	font-weight: 300;
 	font-size: 24px;
-	line-height: 29px;
 	letter-spacing: 0.14em;
 	text-transform: uppercase;
 	color: #292929;
+	font-weight: 300;
+	min-width: 202px;
 }
+.navigation {
+	min-width: 527px;
+	margin: 0;
+	padding: 0;
+	margin-left: 87px;
+}
+
 .navigation_link {
-	font-family: Inter, sans-serif;
-	font-style: normal;
-	font-weight: normal;
+	font-weight: 400;
+	list-style-type: none;
 	font-size: 15px;
 	line-height: 18px;
 	letter-spacing: 0.01em;
 	color: #292929;
 }
-.title {
-	font-family: Roboto, sans-serif;
-	font-style: normal;
-	font-weight: 300;
-	font-size: 48px;
-	line-height: 56px;
-	text-transform: uppercase;
+.header_address{
+	margin-left: 87px;
+}
+.header_address-city{
+	font-weight: 400;
+	display: block;
+	margin-bottom: 5px;
+	min-width: 94px;
+}
+.header_address-street{
+	line-height: 16px;
+	font-size: 13px;
+	color: #959595;
 }
 .tel_number {
-	font-family: Inter, sans-serif;
-	font-style: normal;
 	font-weight: bold;
 	font-size: 15px;
 	line-height: 18px;
 	letter-spacing: 0.01em;
 	color: #6B9CFA;
+	display: block;
+	margin-bottom: 6px;
 }
-.description {
-	font-family: Roboto, sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 15px;
-	line-height: 18px;
-}
-.card_description {
-	font-family: Inter, sans-serif;
-	font-style: normal;
-	font-weight: 300;
-	font-size: 34px;
-	line-height: 52px;
-	letter-spacing: 0.01em;
-	text-transform: uppercase;
-}
-.more {
-	font-family: Inter, sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 25px;
-	letter-spacing: 0.01em;
-}
-h3 {
-	font-family: Inter, sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 22px;
-	letter-spacing: 0.01em;
-	text-transform: uppercase;
+.call{
 	color: #959595;
+	font-weight: 400;
+	font-size: 13px;
+	border: 1px solid #959595;
+	padding: 7px 11px;
+	display: block;
+}
+.header_contacts{
+	margin-left: 87px;
 }
 .navigation_item {
-	font-family: Inter, sans-serif;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 15px;
 	line-height: 18px;
 	letter-spacing: 0.01em;
 }
-.form_description {
-	font-family: Inter, sans-serif;
-	font-style: normal;
-	font-weight: 300;
-	font-size: 20px;
-	line-height: 152.19%;
-	letter-spacing: 0.01em;
-	text-transform: uppercase;
-}
-.form_consult {
-	font-family: Inter, sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 13px;
-	line-height: 16px;
-	letter-spacing: 0.01em;
-	color: #000000;
+.consult{
+	border: 1px;
 }
 .button_consult_item {
-	font-family: Inter, sans-serif;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 15px;
 	line-height: 18px;
 	letter-spacing: 0.01em;
 	color: #FFFFFF;
 }
 .gallery_title {
-	font-family: Inter, sans-serif;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 34px;
 	line-height: 41px;
 	letter-spacing: 0.01em;
@@ -133,28 +128,12 @@ h3 {
 	color: #FFFFFF;
 }
 .info_text_gallery {
-	font-family: Inter, sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 15px;
-line-height: 21px;
-letter-spacing: 0.01em;
-color: #FFFFFF;
-}
-h2 {
-	font-family: Inter, sans-serif;
-	font-style: normal;
-	font-weight: 300;
-	font-size: 34px;
-	line-height: 52px;
+	font-size: 15px;
+	line-height: 21px;
 	letter-spacing: 0.01em;
-	text-transform: uppercase;
-	color: #292929;
+	color: #FFFFFF;
 }
 .card_number {
-	font-family: Inter, sans-serif;
-	font-style: normal;
-	font-weight: 300;
 	font-size: 34px;
 	line-height: 52px;
 	letter-spacing: 0.01em;
@@ -162,17 +141,11 @@ h2 {
 	color: #6B9CFA;
 }
 .card_list_item {
-	font-family: Inter, sans-serif;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 15px;
 	line-height: 23px;
 	letter-spacing: 0.01em;
 }
 .reviews_names {
-	font-family: Inter, sans-serif;
-	font-style: normal;
-	font-weight: 300;
 	font-size: 13px;
 	line-height: 18px;
 	letter-spacing: 0.01em;
@@ -180,8 +153,6 @@ h2 {
 	color: #959595;
 }
 .contacts_list_item {
-	font-family: Inter, sans-serif;
-	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
 	line-height: 24px;
@@ -189,9 +160,6 @@ h2 {
 	color: #292929;
 }
 .logo {
-	font-family: Inter, sans-serif;
-	font-style: normal;
-	font-weight: 300;
 	font-size: 24px;
 	line-height: 29px;
 	letter-spacing: 0.14em;
@@ -199,37 +167,241 @@ h2 {
 	color: #292929;
 }
 .footer_text {
-	font-family: Inter, sans-serif;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 12px;
 	line-height: 15px;
 	letter-spacing: 0.01em;
 	color: #959595;
 }
 .footer_list {
-	font-family: Inter, sans-serif;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 15px;
 	line-height: 18px;
 	letter-spacing: 0.01em;
 }
 .footer_tel {
-	font-family: Inter, sans-serif;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 13px;
 	line-height: 16px;
 	letter-spacing: 0.01em;
 	color: #000000;
 }
 .footer_consult {
-	font-family: Inter, sans-serif;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 15px;
 	line-height: 18px;
 	letter-spacing: 0.01em;
+	color: #FFFFFF
+}
+.container_div{
+	margin: 0 auto;
+	padding-left: 43px;
+	padding-top: 200px;
+	padding-bottom: 274px;
+	background-image: url('../img/man.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0 -30px;
+	/*line-height: 750px;*/
+}
+.main_div{
+	width: 435px;
+
+}
+.main_title {
+	font-family: Roboto, sans-serif;
+	font-weight: 300;
+	font-size: 48px;
+	line-height: 56px;
+	text-transform: uppercase;
+	margin-bottom: 37px;
+
+}
+.main_description {
+	font-family: Roboto, sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	margin-bottom: 37px;
+}
+.main_consult{
+	padding: 21px 39px;
+	border: 1px solid #000000 ;
+	display: inline-block;
+
+}
+.garanty{
+	padding: 150px 0;
+}
+.card_description_wrapper{
+	margin-bottom: 57px;
+}
+.card_description {
+	font-size: 34px;
+	line-height: 52px;
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+	display: inline-block;
+	width: 482px;
+	height: 208px;
+
+}
+.more_wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 90px;
+}
+.more {
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: 0.01em;
+	color: #6B9CFA;
+	font-weight: 400;
+	display: inline;
+}
+.more_link{
+	display: flex;
+	width: 217px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.more_right{
+	width: 28px;
+	height: 3px;
+	background-color: #6B9CFA;
+	position: relative;
+	border-radius: 12px;
+}
+.more_right::before{
+	content: '';
+	position: absolute;
+	background-color: #6B9CFA;
+	top: -4px;
+	right: -3px;
+	width: 14px;
+	height: 3px;
+	transform: rotate(45deg);
+	border-radius: 12px;
+}
+.more_right::after{
+	content: '';
+	position: absolute;
+	background-color: #6B9CFA;
+	top: 4px;
+	right: -3px;
+	width: 14px;
+	height: 3px;
+	transform: rotate(-45deg);
+	border-radius: 12px;
+
+}
+.info_text{
+	font-weight: 400;
+	width: 628px;
+	display: block;
+}
+.offers_title{
+	width: 230px;
+	height: 56px;
+	margin-bottom: 78px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	text-transform: uppercase;
+	color: #959595;
+
+}
+.navigation_list{
+	display: flex;
+	justify-content: space-between; /*раскидывает контент по всей ширине блока */
+}
+.offers_card{
+	display: flex;
+	justify-content: space-between;
+	background-color: #F8F8F8;
+}
+.offers_content{
+	padding-top: 90px;
+	padding-left: 60px;
+}
+.offers_item{
+	color: #292929;
+	font-weight: 400;
+	max-width: 325px;
+	width: 100%;
+	margin-bottom: 36px;
+}
+.offers_item:nth-child(odd) {
+	margin-right: 113px;;
+}
+.offers_list{
+	display: flex;
+	flex-wrap: wrap;
+}
+.form_section{
+	height: 480px;
+}
+.title_card{
+	width: 117px;
+	height: 22px;
+	padding-left: 60px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	text-transform: uppercase;
+	color: #959595;
+	display: flex;
+}
+.form_content{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 150px;
+	width: 992px;
+	height: 328px;
+}
+.card_wrapper{
+	display: flex;
+}
+.div_form{
+	display: block;
+}
+.form_description {
+	width: 455px;
+	height: 90;
+	font-size: 20px;
+	line-height: 152.19%;
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+}
+.form_consult {
+	width: 513px;
+	font-size: 13px;
+	line-height: 16px;
+	letter-spacing: 0.01em;
+	color: #000000;
+}
+.form_input{
+	padding-top: 70px;
+	font-family: Inter; sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 16px;
+	letter-spacing: 0.01em;
+	color: #000000;
+	border:0 solid #fff;
+	border-bottom: 1px solid #000;
+	width: 90%;
+}
+.form_input_button{
 	color: #FFFFFF;
+	font-family: Inter; sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: 0.01em;
+	border: 1px solid #959595;
+	padding: 21px 39px;
+	margin-top: 30px;
+	display: block;
+	background: #6B9CFA;
+	border-radius: 1px;
+
 }
