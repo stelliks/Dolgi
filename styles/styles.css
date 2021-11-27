@@ -399,11 +399,7 @@ input
 }
 .gallery_wrapper{
 	display: inline-flex;
-	margin-left: 440px;
 	margin-top: 60px;
-}
-.slider_block{
-	width: 1200px;
 }
 .gallery_left_block{
 	display: block;
